@@ -2,18 +2,25 @@
 # yarn lockfile v1
 
 
-"@auth0/auth0-spa-js@^1.7.0":
-  "integrity" "sha512-OAeNUI0bTBdk3cIWJMBLgf4B1DvyPXmbBBDQI7EpGR3pU0/+9d19sDCPC1b9epp6Aa7pnd4OR5u9JIQCc3eSKw=="
-  "resolved" "https://registry.npmjs.org/@auth0/auth0-spa-js/-/auth0-spa-js-1.7.0.tgz"
-  "version" "1.7.0"
+"@auth0/auth0-react@^1.4.0":
+  "integrity" "sha512-ksnNFDdmFu5fyu40v8UWff1kpFobXOtybPn9cnDwznmNmOZbDemfI0y7Rk69l0ZeeOUoKnffXIOjaZlD+6RCAg=="
+  "resolved" "https://registry.npmjs.org/@auth0/auth0-react/-/auth0-react-1.4.0.tgz"
+  "version" "1.4.0"
   dependencies:
-    "abortcontroller-polyfill" "^1.4.0"
-    "browser-tabs-lock" "^1.2.8"
-    "core-js" "^3.6.4"
+    "@auth0/auth0-spa-js" "^1.14.0"
+
+"@auth0/auth0-spa-js@^1.14.0", "@auth0/auth0-spa-js@^1.7.0":
+  "integrity" "sha512-mMsqgLZlrDdFiq9/9YX693yUPKLTFKsNDTaVPHpXk/I1aCxfiRp1h0pSSFyoGOXmLy8ZEow6lhAcH9+h7IxgNQ=="
+  "resolved" "https://registry.npmjs.org/@auth0/auth0-spa-js/-/auth0-spa-js-1.14.0.tgz"
+  "version" "1.14.0"
+  dependencies:
+    "abortcontroller-polyfill" "^1.5.0"
+    "browser-tabs-lock" "1.2.9"
+    "core-js" "^3.8.0"
     "es-cookie" "^1.3.2"
-    "fast-text-encoding" "^1.0.1"
-    "promise-polyfill" "^8.1.3"
-    "unfetch" "^4.1.0"
+    "fast-text-encoding" "^1.0.3"
+    "promise-polyfill" "^8.2.0"
+    "unfetch" "^4.2.0"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3", "@babel/code-frame@7.8.3":
   "integrity" "sha512-a9gxpmdXtZEInkCSHUJDLHZVBgb1QS0jhss4cPP93EW7s+uC5bikET2twEF3KV+7rDblJcmNvTR7VJejqd2C2g=="
@@ -1901,10 +1908,10 @@
   "resolved" "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
   "version" "1.1.1"
 
-"abortcontroller-polyfill@^1.4.0":
-  "integrity" "sha512-3ZFfCRfDzx3GFjO6RAkYx81lPGpUS20ISxux9gLxuKnqafNcFQo59+IoZqpO2WvQlyc287B62HDnDdNYRmlvWA=="
-  "resolved" "https://registry.npmjs.org/abortcontroller-polyfill/-/abortcontroller-polyfill-1.4.0.tgz"
-  "version" "1.4.0"
+"abortcontroller-polyfill@^1.5.0":
+  "integrity" "sha512-yml9NiDEH4M4p0G4AcPkg8AAa4mF3nfYF28VQxaokpO67j9H7gWgmsVWJ/f1Rn+PzsnDYvzJzWIQzCqDKRvWlA=="
+  "resolved" "https://registry.npmjs.org/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.1.tgz"
+  "version" "1.7.1"
 
 "accepts@~1.3.4", "accepts@~1.3.5", "accepts@~1.3.7":
   "integrity" "sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA=="
@@ -2709,10 +2716,10 @@
   dependencies:
     "resolve" "1.1.7"
 
-"browser-tabs-lock@^1.2.8":
-  "integrity" "sha512-Xrj33YUTltPDoGrD1KnaAn5ZuxnnlJFcIW9srVTPHbMNPd9MlcnBCWaGV0STlvGKu8Ok0ad5qxyx5sIwFTr/Ig=="
-  "resolved" "https://registry.npmjs.org/browser-tabs-lock/-/browser-tabs-lock-1.2.8.tgz"
-  "version" "1.2.8"
+"browser-tabs-lock@1.2.9":
+  "integrity" "sha512-cczryjv6i6kAfTWKhhNW3LWhFDwzPazEsNG9IG2n6AeYzPVb1tUCY3aqTKeFJL0rKUnfSXto7esjrqY3fz+ugA=="
+  "resolved" "https://registry.npmjs.org/browser-tabs-lock/-/browser-tabs-lock-1.2.9.tgz"
+  "version" "1.2.9"
 
 "browserify-aes@^1.0.0", "browserify-aes@^1.0.4":
   "integrity" "sha512-+7CHXqGuspUn/Sl5aO7Ea0xWGAtETPXNSAjHo48JfLdPWcMng33Xe4znFvQweqc/uzk5zSOI3H52CYnjCfb5hA=="
@@ -3430,10 +3437,10 @@
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-2.6.11.tgz"
   "version" "2.6.11"
 
-"core-js@^3.5.0", "core-js@^3.6.4":
-  "integrity" "sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA=="
-  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz"
-  "version" "3.6.5"
+"core-js@^3.5.0", "core-js@^3.8.0":
+  "integrity" "sha512-MQx/7TLgmmDVamSyfE+O+5BHvG1aUGj/gHhLn1wVtm2B5u1eVIPvh7vkfjwWKNCjrTJB8+He99IntSQ1qP+vYQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.10.0.tgz"
+  "version" "3.10.0"
 
 "core-util-is@~1.0.0", "core-util-is@1.0.2":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
@@ -4808,10 +4815,10 @@
   "resolved" "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
   "version" "2.0.6"
 
-"fast-text-encoding@^1.0.1":
-  "integrity" "sha512-5rQdinSsycpzvAoHga2EDn+LRX1d5xLFsuNG0Kg61JrAT/tASXcLL0nf/33v+sAxlQcfYmWbTURa1mmAf55jGw=="
-  "resolved" "https://registry.npmjs.org/fast-text-encoding/-/fast-text-encoding-1.0.2.tgz"
-  "version" "1.0.2"
+"fast-text-encoding@^1.0.3":
+  "integrity" "sha512-dtm4QZH9nZtcDt8qJiOH9fcQd1NAgi+K1O2DbE6GG1PPCK/BWfOH3idCTRQ4ImXRUOyopDEgDEnVEE7Y/2Wrig=="
+  "resolved" "https://registry.npmjs.org/fast-text-encoding/-/fast-text-encoding-1.0.3.tgz"
+  "version" "1.0.3"
 
 "faye-websocket@^0.10.0":
   "integrity" "sha1-TkkvjQTftviQA1B/btvy1QHnxvQ="
@@ -9285,10 +9292,10 @@
   "resolved" "https://registry.npmjs.org/promise-inflight/-/promise-inflight-1.0.1.tgz"
   "version" "1.0.1"
 
-"promise-polyfill@^8.1.3":
-  "integrity" "sha512-MG5r82wBzh7pSKDRa9y+vllNHz3e3d4CNj1PQE4BQYxLme0gKYYBm9YENq+UkEikyZ0XbiGWxYlVw3Rl9O/U8g=="
-  "resolved" "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.1.3.tgz"
-  "version" "8.1.3"
+"promise-polyfill@^8.2.0":
+  "integrity" "sha512-k/TC0mIcPVF6yHhUvwAp7cvL6I2fFV7TzF1DuGPI8mBh4QQazf36xCKEHKTZKRysEoTQoQdKyP25J8MPJp7j5g=="
+  "resolved" "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.2.0.tgz"
+  "version" "8.2.0"
 
 "promise@^8.0.3":
   "integrity" "sha512-W04AqnILOL/sPRXziNicCjSNRruLAuIHEOVBazepu0545DDNGYHz7ar9ZgZ1fMU8/MA4mVxp5rkBWRi6OXIy3Q=="
@@ -9535,7 +9542,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.13.1":
+"react-dom@^16.11.0 || ^17", "react-dom@^16.13.1":
   "integrity" "sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.13.1.tgz"
   "version" "16.13.1"
@@ -9654,7 +9661,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.13.1":
+"react@^16.11.0 || ^17", "react@^16.13.1":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
@@ -11481,10 +11488,10 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"unfetch@^4.1.0":
-  "integrity" "sha512-crP/n3eAPUJxZXM9T80/yv0YhkTEx2K1D3h7D1AJM6fzsWZrxdyRuLN0JH/dkZh1LNH8LxCnBzoPFCPbb2iGpg=="
-  "resolved" "https://registry.npmjs.org/unfetch/-/unfetch-4.1.0.tgz"
-  "version" "4.1.0"
+"unfetch@^4.2.0":
+  "integrity" "sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA=="
+  "resolved" "https://registry.npmjs.org/unfetch/-/unfetch-4.2.0.tgz"
+  "version" "4.2.0"
 
 "unicode-canonical-property-names-ecmascript@^1.0.4":
   "integrity" "sha512-jDrNnXWHd4oHiTZnx/ZG7gtUTVp+gCcTTKr8L0HjlwphROEW3+Him+IpvC+xcJEFegapiMZyZe02CyuOnRmbnQ=="
